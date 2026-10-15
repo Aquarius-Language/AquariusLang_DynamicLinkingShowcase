@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-15",
+  "abiVersion": 1,
+  "project": "C:\\OfficialProjects\\AquariusLang_DynamicLinkingShowcase",
+  "tests": {
+    "dotnet": {
+      "passed": 1604,
+      "skipped": 35,
+      "failed": 0
+    },
+    "web": {
+      "passed": 320,
+      "failed": 0
+    },
+    "androidBridge": {
+      "passed": 90,
+      "failed": 0
+    }
+  },
+  "execution": {
+    "windows": "Passed: DLL and portable Wasm in standalone EXE",
+    "linux": "Passed: SO and portable Wasm in standalone ELF from /tmp under WSL",
+    "web": "Passed: JavaScript module factory, Wasm, bilingual aliases, binary calls, invalid calls and disposal in Chromium",
+    "android": "Passed on x86_64 emulator: packaged SO and portable Wasm. arm64-v8a SO also built and packaged."
+  },
+  "artifacts": [
+    {
+      "path": "dist/showcase.wasm",
+      "bytes": 260231,
+      "sha256": "64077ce04a33bcf13c0dc8b88202155e42405de4b7ba85fe2f09820ec99371fd"
+    },
+    {
+      "path": "dist/windows/Showcase.exe",
+      "bytes": 279364692,
+      "sha256": "47066b9e422365ba4b9cf3832b7f9f643a4f6e10498901c8776a9cdd9cd4831d"
+    },
+    {
+      "path": "dist/linux/showcase",
+      "bytes": 344438977,
+      "sha256": "89bc1ede844bcdca7ca1ce418e15d565b0ecfbe19c72a438b438f452f38fb753"
+    },
+    {
+      "path": "dist/android/Showcase.apk",
+      "bytes": 335167369,
+      "sha256": "8facd27c55531baefce9208bd6560427d391600a7bedbd39ddff63947a70298e"
+    },
+    {
+      "path": "dist/web/index.html",
+      "bytes": 879,
+      "sha256": "4fa1a4e3499841b40bf806ee934c8952d2970e7ca9918cff0c2da9c054d138b5"
+    }
+  ]
+}

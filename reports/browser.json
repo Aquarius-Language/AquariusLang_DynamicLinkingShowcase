@@ -1,0 +1,13 @@
+{
+  "platform": "web",
+  "passed": true,
+  "checks": {
+    "aliases": true,
+    "bytes": [
+      0,
+      255
+    ],
+    "failures": 5
+  },
+  "output": "Dynamic linking / 動態連結 web ABI 1\nHello from a dynamic library! / 動態函式庫向你問好！\n繁體中文 UTF-8: 你好，星泉！\nEnglish UTF-8: Hello, Aquarius!\n10 + 20 + 12 = 42\nSymbol / 符號: 真 假\nWebAssembly: 同一個 Wasm / identical Wasm\nJavaScript: JS & WebAssembly / 網頁雙格式\nDYNAMIC_LINKING_OK / 動態連結成功\n"
+}

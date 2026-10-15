@@ -1,0 +1,22 @@
+
+Build succeeded.
+    90 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.70
+Compiled 1 script(s) to C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase\dist\showcase.wasm
+Dynamic linking / 動態連結 windows ABI 1
+Hello from a dynamic library! / 動態函式庫向你問好！
+繁體中文 UTF-8: 你好，星泉！
+English UTF-8: Hello, Aquarius!
+10 + 20 + 12 = 42
+Symbol / 符號: 真 假
+WebAssembly: 同一個 Wasm / identical Wasm
+DYNAMIC_LINKING_OK / 動態連結成功
+Website built: C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase\dist\web
+Executable built: C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase\dist\windows\Showcase.exe
+Executable built: C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase\dist\linux\showcase
+Preserved previous Android project / 已保留先前的 Android 專案：C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase\dist\android-project-previous-af24a97113fd4232b47a0755578c27e0
+Android application built: C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase\dist\android-project
+Android application built: C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase\dist\android\Showcase.apk
+Built all platforms / 已完成所有平台：C:\OfficialProjects\AquariusLang_DynamicLinkingShowcase/dist
