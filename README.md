@@ -9,7 +9,8 @@ release. Success ends with `DYNAMIC_LINKING_OK / 動態連結成功`.
 二進位資料、符號查詢及資源釋放。可攜 Wasm 版本也會在每個平台另外載入。
 
 ```powershell
-# From this project directory. Source builds require .NET 8 SDK, Zig 0.15.1,
+# From this project directory. Source builds require .NET 8 SDK, the language
+# repository's pinned LLVM/Clang (scripts/install-wasm-toolchain.ps1 there),
 # NDK r28c, prepared Aquarius native bridges, and WSL Linux build dependencies.
 .\build.ps1
 
@@ -23,8 +24,10 @@ release. Success ends with `DYNAMIC_LINKING_OK / 動態連結成功`.
 .\build.ps1 -LibrariesOnly
 ```
 
-`-Repository`, `-Dotnet`, `-Zig` and `-Ndk` accept tool locations. Defaults target
-`C:/OfficialProjects/AquariusLangTW` and its existing tool caches. Before the first
+`-Repository`, `-Dotnet` and `-Ndk` accept tool locations. Defaults target
+`C:/OfficialProjects/AquariusLangTW` and its existing tool caches; the Windows, Linux
+and portable Wasm libraries are compiled with that repository's pinned Clang
+(`scripts/wasm-toolchain.json`), and the Android libraries with the NDK's Clang. Before the first
 full build, run `scripts/prepare-android.ps1 -Ndk <NDK-r28c>` in the language repo.
 Set `JAVA_HOME`, `ANDROID_HOME`, `AQUARIUS_GRADLE` and, if necessary,
 `AQUARIUS_ANDROID_COMPILE_SDK` when building an APK. For source-only iteration,
