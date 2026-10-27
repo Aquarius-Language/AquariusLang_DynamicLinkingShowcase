@@ -1,0 +1,13 @@
+manifest_version = 2
+
+[library]
+name = "showcase"
+version = "2.0.0"
+platforms = ["windows", "linux", "web", "android"]
+license = "MIT"
+description = "A bilingual C library registered through the Aquarius native SDK."
+
+[native]
+name = "showcase"
+modules = ["Showcase|動態連結範例"]
+source = "src"

@@ -1,0 +1,11 @@
+manifest_version = 2
+
+[project]
+name = "DynamicLinkingShowcase"
+version = "2.0.0"
+entry = "main.aqua"
+sources = ["main.aqua"]
+platforms = ["windows", "linux", "web", "android"]
+
+[dependencies]
+showcase = { path = "libraries/showcase", version = "2.0.0" }

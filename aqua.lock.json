@@ -1,0 +1,17 @@
+{
+  "Format": 1,
+  "ManifestHash": "35947b66c024845bbf7b7293ed2441a68b031a5486c581ea7e428cf9f63dba6f",
+  "Direct": {
+    "showcase": "showcase/2.0.0"
+  },
+  "Packages": [
+    {
+      "Name": "showcase",
+      "Version": "2.0.0",
+      "Hash": "d6a0fefcaa8c871835216cfc8ac8dce32864b7abcdb0965fc8f1df9cb87215de",
+      "Source": "path:C:\\OfficialProjects\\AquariusLang_DynamicLinkingShowcase\\libraries\\showcase\\aqua.toml",
+      "Dependencies": {},
+      "Key": "showcase/2.0.0"
+    }
+  ]
+}

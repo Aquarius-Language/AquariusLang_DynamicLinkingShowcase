@@ -1,3 +1,9 @@
-/libraries/
-/native/
 /dist/
+/libraries/windows/
+/libraries/linux/
+/libraries/portable/
+/libraries/web/
+/native/
+/libraries/showcase/build/
+/libraries/showcase/native/
+*.log
