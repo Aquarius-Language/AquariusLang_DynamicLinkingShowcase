@@ -1,6 +1,6 @@
 {
   "Format": 1,
-  "ManifestHash": "35947b66c024845bbf7b7293ed2441a68b031a5486c581ea7e428cf9f63dba6f",
+  "ManifestHash": "17ed568c9bd2b77901bb99bf6306b5c073cbaa438bdf8830c73db99fd95ea5e3",
   "Direct": {
     "showcase": "showcase/2.0.0"
   },
@@ -8,8 +8,8 @@
     {
       "Name": "showcase",
       "Version": "2.0.0",
-      "Hash": "d6a0fefcaa8c871835216cfc8ac8dce32864b7abcdb0965fc8f1df9cb87215de",
-      "Source": "path:C:\\OfficialProjects\\AquariusLang_DynamicLinkingShowcase\\libraries\\showcase\\aqua.toml",
+      "Hash": "d58654d487cdfbb0ebf98d619545b6a60a364f6c7ede0cf69a8caa010af0f761",
+      "Source": "path:/Users/temple/Documents/OfficialProjects/AquariusLang_DynamicLinkingShowcase/libraries/showcase/aqua.toml",
       "Dependencies": {},
       "Key": "showcase/2.0.0"
     }
